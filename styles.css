@@ -19,3 +19,7 @@ body {
 .tabContent {
     display: none;
 }
+
+.tabMenu {
+    margin-bottom: 16px;
+}
