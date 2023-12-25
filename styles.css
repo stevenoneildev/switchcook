@@ -1,0 +1,17 @@
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.form {
+    display: block;
+}
+
+.inputWrapper {
+    display: block;
+    margin-bottom: 16px;
+}
+
+.inputLabel {
+    display: block;
+    margin-bottom: 4px;
+}
