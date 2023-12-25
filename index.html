@@ -12,42 +12,49 @@
 
 <body>
     <h2>Switchcook</h2>
-    <h3>Convert temperature</h3>
-    <div class="form">
-        <div class="inputWrapper">
-            <label class="inputLabel">Celsius</label>
-            <input id="celsiusInput" type="number" class="inputField">
-        </div>
-        <div class="inputWrapper">
-            <label class="inputLabel">Fahrenheit</label>
-            <input id="fahrenheitInput" type="number" class="inputField">
-        </div>
-        <button id="resetTemperature">Reset</button>
+    <div class="tabMenu">
+        <button onclick="openTab(event, 'temperatureTabContent')" class="tab">Temperature</button>
+        <button onclick="openTab(event, 'volumeTabContent')" class="tab">Volume</button>
     </div>
-    <h3>Convert volume</h3>
-    <div class="form">
-        <div class="inputWrapper">
-            <label class="inputLabel">Milliliters</label>
-            <input id="millilitersInput" type="number" class="inputField">
+    <div class="tabContent" id="temperatureTabContent">
+        <div class="form">
+            <div class="inputWrapper">
+                <label class="inputLabel">Celsius</label>
+                <input id="celsiusInput" type="number" class="inputField">
+            </div>
+            <div class="inputWrapper">
+                <label class="inputLabel">Fahrenheit</label>
+                <input id="fahrenheitInput" type="number" class="inputField">
+            </div>
+            <button id="resetTemperature">Reset</button>
         </div>
-        <div class="inputWrapper">
-            <label class="inputLabel">Teaspoons</label>
-            <input id="teaspoonsInput" type="number" class="inputField">
-        </div>
-        <div class="inputWrapper">
-            <label class="inputLabel">Tablespoons</label>
-            <input id="tablespoonsInput" type="number" class="inputField">
-        </div>
-        <div class="inputWrapper">
-            <label class="inputLabel">Ounces</label>
-            <input id="ouncesInput" type="number" class="inputField">
-        </div>
-        <div class="inputWrapper">
-            <label class="inputLabel">Cups</label>
-            <input id="cupsInput" type="number" class="inputField">
-        </div>
-        <button id="resetVolume">Reset</button>
     </div>
+    <div class="tabContent" id="volumeTabContent">
+        <div class="form">
+            <div class="inputWrapper">
+                <label class="inputLabel">Milliliters</label>
+                <input id="millilitersInput" type="number" class="inputField">
+            </div>
+            <div class="inputWrapper">
+                <label class="inputLabel">Teaspoons</label>
+                <input id="teaspoonsInput" type="number" class="inputField">
+            </div>
+            <div class="inputWrapper">
+                <label class="inputLabel">Tablespoons</label>
+                <input id="tablespoonsInput" type="number" class="inputField">
+            </div>
+            <div class="inputWrapper">
+                <label class="inputLabel">Ounces</label>
+                <input id="ouncesInput" type="number" class="inputField">
+            </div>
+            <div class="inputWrapper">
+                <label class="inputLabel">Cups</label>
+                <input id="cupsInput" type="number" class="inputField">
+            </div>
+            <button id="resetVolume">Reset</button>
+        </div>
+    </div>
+    <script src="./tabs.js"></script>
     <script src="./temperature.js"></script>
     <script src="./volume.js"></script>
 </body>

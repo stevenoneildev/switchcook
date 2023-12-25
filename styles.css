@@ -15,3 +15,11 @@ body {
     display: block;
     margin-bottom: 4px;
 }
+
+.tabContent {
+    display: none;
+}
+
+.tabMenu {
+    margin-bottom: 16px;
+}
