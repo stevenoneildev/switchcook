@@ -15,3 +15,7 @@ body {
     display: block;
     margin-bottom: 4px;
 }
+
+.tabContent {
+    display: none;
+}

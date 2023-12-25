@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@tokens-studio/sd-transforms": "^0.12.2",
+    "style-dictionary": "^3.9.1"
+  }
+}
