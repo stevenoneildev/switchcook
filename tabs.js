@@ -1,3 +1,4 @@
+// Select first tab by default
 window.addEventListener("load", function () {
     var firstTabButton = document.querySelector(".tab");
     firstTabButton.click();
