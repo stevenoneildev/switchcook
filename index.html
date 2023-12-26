@@ -13,7 +13,7 @@
 <body>
     <h2>Switchcook</h2>
     <div class="tabMenu">
-        <button onclick="openTab(event, 'temperatureTabContent')" class="tab">Temperature</button>
+        <button onclick="openTab(event, 'temperatureTabContent')" class="tab active">Temperature</button>
         <button onclick="openTab(event, 'volumeTabContent')" class="tab">Volume</button>
     </div>
     <div class="tabContent" id="temperatureTabContent">
@@ -26,7 +26,7 @@
                 <label class="inputLabel">Fahrenheit</label>
                 <input id="fahrenheitInput" type="number" class="inputField">
             </div>
-            <button id="resetTemperature">Reset</button>
+            <button id="resetTemperature" class="resetButton">Reset</button>
         </div>
     </div>
     <div class="tabContent" id="volumeTabContent">
@@ -51,7 +51,7 @@
                 <label class="inputLabel">Cups</label>
                 <input id="cupsInput" type="number" class="inputField">
             </div>
-            <button id="resetVolume">Reset</button>
+            <button id="resetVolume" class="resetButton">Reset</button>
         </div>
     </div>
     <script src="./tabs.js"></script>
