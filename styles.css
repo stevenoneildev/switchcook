@@ -1,5 +1,7 @@
 body {
     font-family: "Inter", sans-serif;
+    background-color: #000000;
+    color: white;
 }
 
 .form {
@@ -8,12 +10,59 @@ body {
 
 .inputWrapper {
     display: block;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .inputLabel {
+    font-size: 14px;
+    line-height: 20px;
     display: block;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
+}
+
+.inputField {
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #111111;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+    padding-left: 12px;
+    padding-right: 12px;
+    box-sizing: border-box;
+}
+
+.inputField:hover {
+    background-color: #222222;
+}
+
+.inputField:focus {
+    background-color: #333333;
+    outline: none;
+}
+
+.resetButton {
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #111111;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    margin-right: 4px;
+    height: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+}
+
+.resetButton:hover {
+    background-color: #222222;
+}
+
+.resetButton:active {
+    background-color: #333333;
 }
 
 .tabContent {
@@ -21,5 +70,37 @@ body {
 }
 
 .tab {
-    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #111111;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    margin-right: 4px;
+    height: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+}
+
+.tab:hover {
+    background-color: #222222;
+}
+
+.tab:active {
+    background-color: #333333;
+}
+
+.tab.active {
+    color: #111111;
+    background-color: #FFFFFF;
+}
+
+.tab.active:hover {
+    background-color: #FDFDFD;
+}
+
+.tab.active:active {
+    background-color: #FBFBFB;
 }
