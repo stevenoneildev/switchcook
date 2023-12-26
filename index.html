@@ -17,46 +17,48 @@
 </head>
 
 <body>
-    <div class="tabMenu">
-        <button onclick="openTab(event, 'temperatureTabContent')" class="tab active">Temperature</button>
-        <button onclick="openTab(event, 'volumeTabContent')" class="tab">Volume</button>
-    </div>
-    <div class="tabContent" id="temperatureTabContent">
-        <div class="form">
-            <div class="inputWrapper">
-                <label class="inputLabel">Celsius (°C)</label>
-                <input id="celsiusInput" type="number" class="inputField">
-            </div>
-            <div class="inputWrapper">
-                <label class="inputLabel">Fahrenheit (°F)</label>
-                <input id="fahrenheitInput" type="number" class="inputField">
-            </div>
-            <button id="resetTemperature" class="resetButton">Reset</button>
+    <div class="container">
+        <div class="tabMenu">
+            <button onclick="openTab(event, 'temperatureTabContent')" class="tab active">Temperature</button>
+            <button onclick="openTab(event, 'volumeTabContent')" class="tab">Volume</button>
         </div>
-    </div>
-    <div class="tabContent" id="volumeTabContent">
-        <div class="form">
-            <div class="inputWrapper">
-                <label class="inputLabel">Milliliters (ml)</label>
-                <input id="millilitersInput" type="number" class="inputField">
+        <div class="tabContent" id="temperatureTabContent">
+            <div class="form">
+                <div class="inputWrapper">
+                    <label class="inputLabel">Celsius (°C)</label>
+                    <input id="celsiusInput" type="number" class="inputField">
+                </div>
+                <div class="inputWrapper">
+                    <label class="inputLabel">Fahrenheit (°F)</label>
+                    <input id="fahrenheitInput" type="number" class="inputField">
+                </div>
+                <button id="resetTemperature" class="resetButton">Reset</button>
             </div>
-            <div class="inputWrapper">
-                <label class="inputLabel">Teaspoons (tsp)</label>
-                <input id="teaspoonsInput" type="number" class="inputField">
+        </div>
+        <div class="tabContent" id="volumeTabContent">
+            <div class="form">
+                <div class="inputWrapper">
+                    <label class="inputLabel">Milliliters (ml)</label>
+                    <input id="millilitersInput" type="number" class="inputField">
+                </div>
+                <div class="inputWrapper">
+                    <label class="inputLabel">Teaspoons (tsp)</label>
+                    <input id="teaspoonsInput" type="number" class="inputField">
+                </div>
+                <div class="inputWrapper">
+                    <label class="inputLabel">Tablespoons (tbsp)</label>
+                    <input id="tablespoonsInput" type="number" class="inputField">
+                </div>
+                <div class="inputWrapper">
+                    <label class="inputLabel">Ounces (fl oz)</label>
+                    <input id="ouncesInput" type="number" class="inputField">
+                </div>
+                <div class="inputWrapper">
+                    <label class="inputLabel">Cups (C)</label>
+                    <input id="cupsInput" type="number" class="inputField">
+                </div>
+                <button id="resetVolume" class="resetButton">Reset</button>
             </div>
-            <div class="inputWrapper">
-                <label class="inputLabel">Tablespoons (tbsp)</label>
-                <input id="tablespoonsInput" type="number" class="inputField">
-            </div>
-            <div class="inputWrapper">
-                <label class="inputLabel">Ounces (fl oz)</label>
-                <input id="ouncesInput" type="number" class="inputField">
-            </div>
-            <div class="inputWrapper">
-                <label class="inputLabel">Cups (C)</label>
-                <input id="cupsInput" type="number" class="inputField">
-            </div>
-            <button id="resetVolume" class="resetButton">Reset</button>
         </div>
     </div>
     <script src="./tabs.js"></script>
