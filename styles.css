@@ -1,6 +1,6 @@
 body {
     font-family: 'Space Grotesk', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     background-color: #000000;
     color: white;
 }
@@ -22,6 +22,8 @@ body {
 }
 
 .inputField {
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     background-color: #111111;
@@ -46,7 +48,7 @@ body {
 .resetButton {
     font-size: 16px;
     line-height: 24px;
-    font-weight: 600;
+    font-weight: 500;
     background-color: #111111;
     color: white;
     border: none;
@@ -74,7 +76,7 @@ body {
 .tab {
     font-size: 16px;
     line-height: 24px;
-    font-weight: 600;
+    font-weight: 500;
     background-color: #111111;
     color: white;
     border: none;
