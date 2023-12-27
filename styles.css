@@ -26,7 +26,7 @@ body {
 
 .container {
     display: block;
-    max-width: 640px;
+    max-width: 480px;
     padding-top: 64px;
     margin-left: auto;
     margin-right: auto;
