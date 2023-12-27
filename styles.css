@@ -51,11 +51,15 @@ body {
 
 .inputField:hover {
     background-color: #222222;
+    transition: background-color 200ms;
+    transition-timing-function: ease-in-out;
 }
 
 .inputField:focus {
     background-color: #333333;
     outline: none;
+    transition: background-color 200ms;
+    transition-timing-function: ease-in-out;
 }
 
 .resetButton {
@@ -79,10 +83,14 @@ body {
 
 .resetButton:hover {
     background-color: #222222;
+    transition: background-color 200ms;
+    transition-timing-function: ease-in-out;
 }
 
 .resetButton:active {
     background-color: #333333;
+    transition: background-color 200ms;
+    transition-timing-function: ease-in-out;
 }
 
 .tabContent {
@@ -113,10 +121,14 @@ body {
 
 .tab:hover {
     background-color: #222222;
+    transition: background-color 200ms;
+    transition-timing-function: ease-in-out;
 }
 
 .tab:active {
     background-color: #333333;
+    transition: background-color 200ms;
+    transition-timing-function: ease-in-out;
 }
 
 .tab.active {
@@ -126,8 +138,12 @@ body {
 
 .tab.active:hover {
     background-color: #FDFDFD;
+    transition: background-color 200ms;
+    transition-timing-function: ease-in-out;
 }
 
 .tab.active:active {
     background-color: #FBFBFB;
+    transition: background-color 200ms;
+    transition-timing-function: ease-in-out;
 }
