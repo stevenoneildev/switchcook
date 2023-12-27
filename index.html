@@ -14,6 +14,7 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&family=Space+Mono&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/fill/style.css" />
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-L15E1W8Q7E"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -25,8 +26,10 @@
 </head>
 
 <body>
+    <div class="topBar">
+        <i class="ph-fill ph-scales"></i>
+    </div>
     <div class="container">
-        <h1>Switchcook</h1>
         <div class="tabMenu">
             <button onclick="openTab(event, 'temperatureTabContent')" class="tab active">Temperature</button>
             <button onclick="openTab(event, 'volumeTabContent')" class="tab">Volume</button>
@@ -69,6 +72,9 @@
                 <button id="resetVolume" class="resetButton">Reset</button>
             </div>
         </div>
+    </div>
+    <div class="footerWrapper">
+        <p class="footerLabel">Switchcook © 2024</p>
     </div>
     <script src="./tabs.js"></script>
     <script src="./temperature.js"></script>
