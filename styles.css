@@ -5,6 +5,11 @@ body {
     color: white;
 }
 
+a {
+    color: white;
+    text-decoration: underline;
+}
+
 .topBar {
     display: flex;
     position: absolute;
@@ -171,6 +176,24 @@ body {
     background-color: #FBFBFB;
     transition: background-color 200ms;
     transition-timing-function: ease-in-out;
+}
+
+.madeBy {
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #666666;
+    background-color: #111111;
+    border: none;
+    border-radius: 8px;
+    margin-top: 32px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: fit-content;
+
 }
 
 /* .footerWrapper {
