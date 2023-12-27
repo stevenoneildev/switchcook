@@ -178,7 +178,7 @@ a {
     transition-timing-function: ease-in-out;
 }
 
-.madeBy {
+/* .madeBy {
     font-family: 'Space Mono', monospace;
     font-weight: 400;
     font-size: 14px;
@@ -194,7 +194,7 @@ a {
     padding-bottom: 4px;
     width: fit-content;
 
-}
+} */
 
 /* .footerWrapper {
     display: flex;
