@@ -123,6 +123,11 @@ body {
     display: flex;
     width: 100%;
     margin-top: 72px;
+    background-color: #111111;
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 32px;
 }
 
 .tab {
@@ -131,15 +136,12 @@ body {
     font-weight: 600;
     background-color: #111111;
     color: white;
-    border: none;
-    border-radius: 8px;
-    margin-bottom: 32px;
-    margin-right: 8px;
     height: 48px;
     padding-left: 16px;
     padding-right: 16px;
     width: 100%;
     cursor: pointer;
+    border: none;
 }
 
 .tab:hover {
